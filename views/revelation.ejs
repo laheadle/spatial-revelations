@@ -7,6 +7,7 @@
     <style>
       .wrapper { width: 75%; margin: 30px auto }
       canvas { margin-top: 15px }
+      .nav { text-align: right }
     </style>
     <script>
       var __boxes = <%- __boxes %>
@@ -15,6 +16,7 @@
   <body>
 
     <div class="wrapper">
+      <div class="nav"> <a href="index.html"> Spatial Revelations </a> </div>
       <%- content %>
       <canvas data-image="images/<%- name %>.<%- imgType %>" width="2000" height="2000"></canvas>
     </div>

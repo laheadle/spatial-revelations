@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+  <head>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+    <script src="./jcanvas.js"></script>
+    <script src="./viewer.js"></script>
+    <style>
+      .wrapper { width: 75%; margin: 30px auto }
+      canvas { margin-top: 15px }
+    </style>
+    <script>
+      var __boxes = <%- __boxes %>
+    </script>
+  </head>
+  <body>
+
+    <div class="wrapper">
+      <%- content %>
+      <canvas data-image="images/<%- name %>.<%- imgType %>" width="2000" height="2000"></canvas>
+    </div>
+  </body>

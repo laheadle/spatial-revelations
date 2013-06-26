@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "step": "0.x.x",
+    "ejs": "0.x.x",
+    "express": "3.x.x",
+    "open": "0.x.x",
+    "underscore": "x",
+    "async": "x"
+  },
+  "version": "0.0.1"
+}

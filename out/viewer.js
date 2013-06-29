@@ -10,7 +10,10 @@ jQuery(function($) {
         source: canvas.data('image'),
         name: 'image',
         index: 0,
-        fromCenter: false
+        fromCenter: false,
+        load: function () {
+            $('#loading').hide()
+        }
     });
 
     var index = 0

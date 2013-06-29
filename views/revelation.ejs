@@ -6,8 +6,8 @@
     <script src="./viewer.js"></script>
     <style>
       .wrapper { width: 75%; margin: 30px auto }
-      canvas { margin-top: 15px }
       .nav { text-align: right; margin-bottom: 15px;  }
+      .credit { font-size: small; margin-top: 15px; text-align: right; }
     </style>
     <script>
       var __boxes = <%- __boxes %>
@@ -19,6 +19,12 @@
       <div class="nav"> <a href="index.html"> Spatial Revelations </a> </div>
       <div id="loading" style="font-size: 30px; background-color: pink"> Loading ... </div>
       <%- content %>
+      <div class="credit"> 
+      <% if ((typeof credit != "undefined") && credit.name && credit.href) {  %>
+          Image credit <a href="<%- credit.href %>"><%= credit.name %></a>
+      <% } %>
+      </div>
       <canvas data-image="images/<%- name %>.<%- imgType %>" width="2000" height="2000"></canvas>
+
     </div>
   </body>

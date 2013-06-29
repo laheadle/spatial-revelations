@@ -464,5 +464,6 @@
         }
     ],
     "imgType": "png",
-    "name": "Malacca_Sultanate"
+    "name": "Malacca_Sultanate",
+    "credit": { "name": "Gunawan Kartapranata", "href": "http://commons.wikimedia.org/wiki/User:Gunkarta" }
 }

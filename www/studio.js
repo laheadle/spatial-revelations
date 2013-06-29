@@ -5,11 +5,11 @@ jQuery(function($) {
     var canvasElt = canvas[0]
     canvasElt.onselectstart = function () { return false; }
 
-    canvas.data('image', './images/' + queryVal('name') + '.' + queryVal('imgType'))
+    var imagePath = './images/' + queryVal('name') + '.' + queryVal('imgType')
 
     canvas.drawImage({
         layer: true,
-        source: canvas.data('image'),
+        source: imagePath,
         name: 'image',
         index: 0,
         fromCenter: false

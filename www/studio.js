@@ -191,7 +191,7 @@ jQuery(function($) {
             __boxes: getLayers(),
             imgType: queryVal('imgType'),
             name: queryVal('name'),
-            content: '<div class="content">Learn about ' + queryVal('name') + ' </div>',
+            content: '<div class="content"> </div>',
         }
         
         $.post('/revelation', {data: JSON.stringify(data)})

@@ -13,7 +13,7 @@ https://commons.wikimedia.org/wiki/File:Italy_c_1810.png
 https://commons.wikimedia.org/wiki/File:Europe_in_1470.PNG 
  - pub domain
 https://commons.wikimedia.org/wiki/File:Late_Medieval_Trade_Routes.jpg
- - pd
+ - pd, need bigger
 https://commons.wikimedia.org/wiki/File:Mediterranean1400.png
  - https://commons.wikimedia.org/wiki/User:Gabagool
 https://commons.wikimedia.org/wiki/File:1579_Union_of_Utrecht.svg
